@@ -1,0 +1,344 @@
+#header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+ 
+}
+
+#Banner {
+    display: flex;
+    flex-direction: row;
+}
+
+#Banner-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+#header-img{
+    object-fit: cover;
+    margin-left: 40px;
+}
+.nav-link{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#nav-bar{
+    width: 500px;
+    align-self: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-left: 70px; 
+}
+
+#caption{
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 20px;
+    margin-top: 60px;
+}
+body{
+    background-color: #e7e7e7;
+    margin: 0;
+    padding: 0;
+}
+#video{
+    padding-bottom: 60px;
+}
+
+#features{
+   font-family: "Roboto";
+   font-weight: 400;
+  
+}
+.Features-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#Exceptional-Materials{
+    margin: 0;
+}
+#Exceptional-Description{
+    margin: 0;
+    padding-bottom: 60px;
+
+}
+.iconify{
+    padding-right: 50px;
+    flex-shrink: 0;
+}
+#Features-list{
+    list-style-type: none;
+}
+#Nba-certified {
+    margin: 0; 
+}
+#Nba-Description {
+    margin: 0;
+    padding-bottom: 60px;
+}
+#Shipping {
+    margin: 0;
+}
+#Shipping-Description {
+    margin: 0;
+    padding-bottom: 60px;
+}
+#shipping-icon {
+    padding-right: 40px;
+}
+#demonstration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pricing{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#Original {
+    background-color: #fff;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Weighted {
+    background-color: #fff;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Bundle {
+    background-color: #fff;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 20px;
+    margin-bottom: 10px;  
+}
+#Original-description{
+    font-family: "Roboto";
+    text-align: left;
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+   
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color:rgb(175, 53, 53);
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: rgb(230, 95, 95);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+}
+
+#submit:hover{
+    background-color: rgb(230, 95, 95);
+    transition: all 0.3s ease-out;
+}
+#price{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#email-label{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#email {
+    width: 250px;
+    height: 25px;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#submit {
+    width: 100px;
+    height: 30px;
+    background-color:rgb(175, 53, 53);
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+
+.footer-container {
+ 
+    height: 175px;
+    background-color: rgb(0, 0, 0);
+    max-width: 1265px;
+   
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-left: 3rem;
+   
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+}
+
+.About h3 {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400px;
+}
+.About a {
+    gap: 2rem;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 500px;
+}
+
+.Legal h3 {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400px;
+}
+
+.Legal {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.Legal a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400px;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    
+}
+
+.Contact h3 {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400px;
+}
+
+.Contact a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400px;
+}
+
+.Copyright {
+    margin-right: 3rem;
+    margin-top: 5px;
+}
+.Copyright p{
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400px;
+ 
+}
+
+@media only screen and (max-width: 800px) {
+    #pricing {
+        flex-direction: column;
+        width: 250px;
+        margin:auto;
+        margin-bottom: 40px;
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+   .iconify {
+       display: none;
+   }
+
+   #Exceptional-Description {
+       flex-direction: column;
+       width: 250px;
+
+   }
+   
+   #Nba-Description {
+       flex-direction: column;
+       width: 250px;
+ 
+   }
+
+   #Shipping-Description {
+       flex-direction: column;
+       width: 250px;
+   
+   }
+    
+   #nav-bar {
+       font-size: 14px;
+
+   }
+}
